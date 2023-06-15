@@ -1,4 +1,4 @@
-<!-- Introduction
+Introduction
 This report presents the final project report for the Rust Cryptocurrency Trading
 Platform developed by Muhammad Hamza Wala Qadr, Muhammad Mustafa, and
 Ibrahim Abdul Rehman. The project aims to provide a comprehensive
@@ -234,4 +234,4 @@ secure payment processing, and incorporating various libraries, the platform
 ensures efficient performance, reliability, and data integrity.
 With its user-friendly APIs, seamless trading experience, and comprehensive
 transaction management, the Rust Cryptocurrency Trading Platform presents a
-compelling solution for cryptocurrency enthusiasts and traders. -->
+compelling solution for cryptocurrency enthusiasts and traders.
