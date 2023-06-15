@@ -21,6 +21,7 @@ Core functionalities
 4. Trading engine (matching buy and sell orders)
 5. Order book and trade history maintained for every user
 6. Users can easily view account balance and list of transactions
+
 Technologies used
 The Rust Cryptocurrency Trading Platform leveraged a range of technologies to
 ensure its functionality, performance, and security:
@@ -35,6 +36,7 @@ data storage and retrieval capabilities.
 3. Stripe API: The Stripe API integration enables seamless payment processing
 and credit card transactions within the platform. It allows users to deposit money
 from their credit cards into their real money wallets.
+
 Tools used
 The development of the Rust Cryptocurrency Trading Platform made use of the
 following tools:
@@ -48,6 +50,7 @@ PostgreSQL database, allowing efficient database operations and maintenance.
 and validating the functionality of the implemented APIs. It enabled
 comprehensive testing of the endpoints and facilitated the detection and
 resolution of potential issues.
+
 Libraries used
 To enhance functionality and efficiency, several Rust libraries were utilized in the
 development of the Rust Cryptocurrency Trading Platform:
@@ -72,6 +75,7 @@ platform.
 Stripe API. It enabled seamless integration with the payment processing
 functionality of the platform, allowing secure and reliable credit card
 transactions.
+
 Database tables
 The Rust Cryptocurrency Trading Platform utilized a set of well-structured
 database tables to store and manage different aspects of the system:
@@ -93,6 +97,7 @@ cryptocurrency ID, order amount, price, and status.
 7. Trade: The Trade table stored information about trades that occurred between
 users. It captured details such as the buyer ID, seller ID, cryptocurrency ID, trade
 amount, price, and relevant timestamps.
+
 List of APIs we created
 1. CRUD APIs for all 7 tables
 a. Create (Post) API adds an entry to a table
@@ -197,6 +202,7 @@ record is created for the buyer and is inserted into the Transactions table.
 Similarly, a new transaction record is created for the seller and is inserted into
 the Transactions table.
 → A success message is returned.
+
 Flow of the program
 The Rust Cryptocurrency Trading Platform follows the following flow:
 1. User Registration: Users can register by providing their details, including
@@ -222,6 +228,7 @@ cryptocurrency balances in user wallets.
 Overall, the Cryptocurrency Trading Platform provides a comprehensive and
 secure environment for users to engage in cryptocurrency trading while
 ensuring efficient order matching and transparent transaction tracking.
+
 Conclusion
 The Rust Cryptocurrency Trading Platform developed by Muhammad Hamza
 Wala Qadr, Muhammad Mustafa, and Ibrahim Abdul Rehman offers a robust and
